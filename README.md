@@ -1,4 +1,4 @@
-![FS22](https://raw.githubusercontent.com/Toetje585/wine-gameservers/main/misc/fs22_top_logo.png "Farming Simulator 22")
+![FS22](https://raw.githubusercontent.com/wine-gameservers/docker-winebased-server-fs22/main/misc/fs22_top_logo.png "Farming Simulator 22")
 
 # docker-winebased-server-fs22
 

@@ -1,0 +1,27 @@
+docker run -d \
+    --name docker-fs22-server \
+    --cap-add=sys_nice \
+    -p 5900:5900/tcp \
+    -p 8080:8080/tcp \
+    -p 9000:9000/tcp \
+    -p 10823:10823/tcp \
+    -p 10823:10823/udp \
+    -v /etc/localtime:/etc/localtime:ro \
+    -v /opt/fs22_installer:/installer_files \
+    -e USERNAME="FS22USER" \
+    -e VNC_PASSWORD="FS22USER" \
+    -e WEB_USERNAME="FS22USER" \
+    -e WEB_PASSWORD="FS22USER" \
+    -e SERVER_NAME="Docker Server" \
+    -e SERVER_ADMIN="FS22USER" \
+    -e SERVER_PASSWORD="FS22USER" \
+    -e SERVER_PLAYERS="16" \
+    -e SERVER_PORT="10823" \
+    -e SERVER_REGION="en" \
+    -e SERVER_MAP="MapUS" \
+    -e SERVER_DIFFICULTY="3" \
+    -e SERVER_PAUSE="2" \
+    -e SERVER_SAVE_INTERVAL="180.000000" \
+    -e SERVER_STATS_INTERVAL="31536000" \
+    -e SERVER_CROSSPLAY="true" \
+    wine-gameservers/docker-winebased-server-fs22

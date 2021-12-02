@@ -5,6 +5,8 @@
 Farming Simulator 22 server running inside a Docker Container (with [vnc](#vnc)
 This project is maintained at [wine-gameservers/docker-winebased-server-fs22](https://github.com/wine-gameservers/docker-winebased-server-fs22) 
 
+Please note this project is missing crucial documentation regarding the usage and requirements for running this docker container, currently this information is only available in our Discord server listed in the footer of this readme.
+
 **Description**
 
 This is the first beta verion to be released!
@@ -79,7 +81,7 @@ docker run -d \
 
 Want to help or contribute by testing? join my discord!
 
-https://discord.gg/MHfzEwRj
+https://discord.gg/57EY9pmg9U
 
 # Legal disclaimer
 This Docker container is not endorsed by, directly affiliated with, maintained, authorized, or sponsored by [Giants Software](https://giants-software.com) and [Farming Simulator 22](https://farming-simulator.com/). The logo [Farming Simulator 22](https://giants-software.com) are © 2021 Giants Software.
